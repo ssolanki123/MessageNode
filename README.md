@@ -9,7 +9,7 @@ Created a single web page application to allow users to post, update, and delete
 ### npm package manager needs to be installed
 ### A live cluster on Mongo DB, with an active connection, needs to be created for application on local machine to connect to. Please reference <https://docs.mongodb.com/manual/installation/>  for installation instruction.
 
-##Installation 
+## Installation 
 ```
  npm install bycrptjs
  npm install body-parser
@@ -21,8 +21,8 @@ Created a single web page application to allow users to post, update, and delete
  npm install multer
  npm install graphql
  ```
-###After installing the above packages, please open up app.js in backend-adding-auth-middleware-to-all-routes project to paste the connection string to connect to MonogDb cluster.
-```nodejs
+### After installing the above packages, please open up app.js in backend-adding-auth-middleware-to-all-routes project to paste the connection string to connect to MonogDb cluster.
+```js
 mongoose
   .connect(
     'TODO: Fill in MongoDB connection'
@@ -33,12 +33,12 @@ mongoose
   .catch(err => console.log(err));
 ```
 
-###Running the following command will get backend application running on port 8080
+### Running the following command will get backend application running on port 8080
 ```
     npm start
 ```
 
-##Technology Stack
+## Technology Stack
 * Express JS (backend)
 * React JS (frontend)
 * MongoDB (NoSQL Database)
