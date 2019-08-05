@@ -99,11 +99,9 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://admin:Garden6789@messagedb-akohv.mongodb.net/test?retryWrites=true&w=majority'
+    'TODO: Fill in MongoDB connection'
   )
   .then(result => {
     app.listen(8080);
   })
   .catch(err => console.log(err));
-
-
